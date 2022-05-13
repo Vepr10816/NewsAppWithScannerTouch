@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.newsapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:5:5-25:19
+12        android:allowBackup="true"
+12-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\kruto\.gradle\caches\transforms-3\5f5e792acd1d8373e906efd73c4b888f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.NewsApp" >
+20-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:11:9-45
+21        <activity
+21-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:12:9-20:20
+22            android:name="com.example.newsapp.SplashScreen"
+22-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:13:13-41
+23            android:exported="true" >
+23-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:14:13-36
+24            <intent-filter>
+24-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:16:17-69
+25-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:18:17-77
+27-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.example.newsapp.MainActivity" />
+30-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:21:9-50
+30-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:21:19-47
+31        <activity android:name="com.example.newsapp.RegistrationPage" />
+31-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:22:9-54
+31-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:22:19-51
+32        <activity android:name="com.example.newsapp.ManagmentPage" />
+32-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:23:9-51
+32-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:23:19-48
+33        <activity android:name="com.example.newsapp.AdminPage" />
+33-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:24:9-47
+33-->C:\Users\kruto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:24:19-44
+34
+35        <provider
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kruto\.gradle\caches\transforms-3\883c8571d9900e72cce7dfb06c6e0c4b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+36            android:name="androidx.startup.InitializationProvider"
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kruto\.gradle\caches\transforms-3\883c8571d9900e72cce7dfb06c6e0c4b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+37            android:authorities="com.example.newsapp.androidx-startup"
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kruto\.gradle\caches\transforms-3\883c8571d9900e72cce7dfb06c6e0c4b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+38            android:exported="false" >
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kruto\.gradle\caches\transforms-3\883c8571d9900e72cce7dfb06c6e0c4b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+39            <meta-data
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kruto\.gradle\caches\transforms-3\883c8571d9900e72cce7dfb06c6e0c4b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+40                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kruto\.gradle\caches\transforms-3\883c8571d9900e72cce7dfb06c6e0c4b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+41                android:value="androidx.startup" />
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kruto\.gradle\caches\transforms-3\883c8571d9900e72cce7dfb06c6e0c4b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+42            <meta-data
+42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kruto\.gradle\caches\transforms-3\c761cbdefd74fb3955bd84ec83922caa\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+43-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kruto\.gradle\caches\transforms-3\c761cbdefd74fb3955bd84ec83922caa\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+44                android:value="androidx.startup" />
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kruto\.gradle\caches\transforms-3\c761cbdefd74fb3955bd84ec83922caa\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+45        </provider>
+46    </application>
+47
+48</manifest>
