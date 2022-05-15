@@ -1,7 +1,11 @@
-com/example/newsapp/BuildConfig.java
- com.example.newsapp.BuildConfig
+com/example/newsapp/ManagmentPage.java
+ com.example.newsapp.ManagmentPage
 com/example/newsapp/DatabaseHelper.java
  com.example.newsapp.DatabaseHelper
+com/example/newsapp/BuildConfig.java
+ com.example.newsapp.BuildConfig
+com/example/newsapp/AdminPage.java
+ com.example.newsapp.AdminPage
 com/example/newsapp/RegistrationPage.java
  com.example.newsapp.RegistrationPage
 com/example/newsapp/SplashScreen.java
@@ -9,7 +13,4 @@ com/example/newsapp/SplashScreen.java
  com.example.newsapp.SplashScreen$1
 com/example/newsapp/MainActivity.java
  com.example.newsapp.MainActivity
-com/example/newsapp/ManagmentPage.java
- com.example.newsapp.ManagmentPage
-com/example/newsapp/AdminPage.java
- com.example.newsapp.AdminPage
+ com.example.newsapp.MainActivity$1
